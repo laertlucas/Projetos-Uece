@@ -226,7 +226,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         conteudo.setAreaConteudo(jTextArtigo.getText());
 
         lista.add(conteudo);
-        JOptionPane.showMessageDialog(null,jTextArtigo.getText());
+        JOptionPane.showMessageDialog(null,"Nome: "+jTextNome.getText() + "\n" + "E-mail: " + jTextEmail.getText()+ "\n" + "Artigo: " + jTextArtigo.getText());
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
